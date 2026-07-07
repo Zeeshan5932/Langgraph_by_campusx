@@ -1,2 +1,4 @@
 .venv
 .env
+#add your local environment variables here
+newenv
