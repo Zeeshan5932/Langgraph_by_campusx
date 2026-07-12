@@ -2,3 +2,4 @@
 .env
 #add your local environment variables here
 newenv
+Chatbot/venv/
