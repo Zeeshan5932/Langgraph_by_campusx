@@ -41,3 +41,6 @@ with st.chat_message("user"):
     
 with st.chat_message("assistant"):
     st.text("How can I help you?")
+    
+with st.chat_message("User"):
+    st.text("My Name is Zeeshan")
