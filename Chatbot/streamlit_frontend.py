@@ -33,22 +33,24 @@
 #     with st.chat_message('assistant'):
 #         st.text(ai_message)
 
-import streamlit as st
+# import streamlit as st
 
 
-with st.chat_message("user"):
-    st.text("Hi")
+# with st.chat_message("user"):
+#     st.text("Hi")
     
-with st.chat_message("assistant"):
-    st.text("How can I help you?")
+# with st.chat_message("assistant"):
+#     st.text("How can I help you?")
     
-with st.chat_message("User"):
-    st.text("My Name is Zeeshan")
+# with st.chat_message("User"):
+#     st.text("My Name is Zeeshan")
     
-user_input = st.chat_input("Type here")
+# user_input = st.chat_input("Type here")
 
-if user_input:
-    with st.chat_message("user"):
-        st.text(user_input)
+# if user_input:
+#     with st.chat_message("user"):
+#         st.text(user_input)
+        
+        
         
    
