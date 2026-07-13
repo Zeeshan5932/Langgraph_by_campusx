@@ -44,3 +44,5 @@ with st.chat_message("assistant"):
     
 with st.chat_message("User"):
     st.text("My Name is Zeeshan")
+    
+user_input = st.chat_input("Type here")
