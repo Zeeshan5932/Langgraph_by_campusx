@@ -18,6 +18,11 @@ def chat_node(state: ChatState):
     response = llm.invoke(messages)
     return {"messages": [response]}
 
+
+
+# add streaming 
+
+
 # Checkpointer
 checkpointer = InMemorySaver()
 
